@@ -35,9 +35,9 @@ npm i jsonwebtoken
  ## Routers:
  1- Role
     * CreateRole
-        To create new user role 
+           To create new user role 
     * GetAllRoles
-        List all roles in the DB
+           List all roles in the DB
   
  2- User
    * Register
