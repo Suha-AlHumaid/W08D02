@@ -2,19 +2,21 @@
 
 index:
 
-* [ Packages](#Packages)
+* [Packages](#Packages)
 * [Technologies](#technologies)
 * [Schemas](#Schemas)
 * [Routers](#Routers)
 
 ## Packages:
-``` npm i express
+```
+npm i express
 npm i nodemon
 npm i bcrypt
 npm i mongoose
 npm i cose
 npm i dotenv
-npm i jsonwebtoken```
+npm i jsonwebtoken 
+ ```
 
 
 ## Technologies:
@@ -26,22 +28,22 @@ npm i jsonwebtoken```
 
 ## Schemas:
  * Role
- **contain**: role and permessions
+ **contains**: role and permessions
  * User
- **contain**: email , password and role
+ **contains**: email , password and role
 
  ## Routers:
  1- Role
-- CreateRole
-  To create new user role 
- - GetAllRoles
-  List all roles in the DB
+    - CreateRole
+        To create new user role 
+    - GetAllRoles
+        List all roles in the DB
   
  2- User
-- Register
-   To create new user with particuler role (email , passsword , role) and hash the password by bcrypt
-- Login
-Login user by email and password (hashed by bcrypt) & set token (finsh in 60 minuts)
+   - Register
+       To create new user with particuler role (email , passsword , role) and hash the password by bcrypt
+   - Login
+       Login user by email and password (hashed by bcrypt) & set token (finsh in 60 minuts)
   
   
 
