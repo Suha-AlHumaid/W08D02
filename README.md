@@ -43,9 +43,10 @@ npm i jsonwebtoken
   
  2- User 
    * Register
-           To create new user with particuler role (email , passsword , role) and hash the password by bcrypt
+                To create new user with particuler role (email , passsword , role) and hash the password by bcrypt 
    * Login
-           Login user by email and password (hashed by bcrypt) & set token (finsh in 60 minuts)
+                Login user by email and password (hashed by bcrypt) & set token (finsh in 60 minuts)
+     
   
   
 
