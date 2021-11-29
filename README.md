@@ -39,7 +39,7 @@ npm i jsonwebtoken
  * **Create Role Router**
       -To create new user role like: admin who can create , read, write and delete.
       
- * **Get All Roles Router **
+ * **Get All Roles Router**
       - List all roles in the DB like: Admin and user.
 
            
