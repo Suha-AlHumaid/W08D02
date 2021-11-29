@@ -5,7 +5,6 @@ const db = require("./db");
 
 require("dotenv").config();
 
-
 app.use(cors());
 app.use(express.json());
 
