@@ -27,13 +27,13 @@ npm i jsonwebtoken
 
 
 ## Schemas:
- * Role
- **contains**: role and permessions
- * User
- **contains**: email , password and role
+ * **Role Schema**
+      contains: role and permessions
+ * **User Schema**
+     contains: email , password and role
 
  ## Routers:
- 1- Role
+ 1- Role 
     * CreateRole
            To create new user role 
     * GetAllRoles
@@ -41,7 +41,7 @@ npm i jsonwebtoken
            
            
   
- 2- User
+ 2- User 
    * Register
            To create new user with particuler role (email , passsword , role) and hash the password by bcrypt
    * Login
