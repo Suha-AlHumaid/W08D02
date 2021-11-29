@@ -1,6 +1,9 @@
 # W08D02
 
-
+index:
+## Packages
+## Schemas
+## Routers
 
 ## Packages:
 npm i express
