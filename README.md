@@ -34,15 +34,15 @@ npm i jsonwebtoken
 
  ## Routers:
  1- Role
-    - CreateRole
+    * CreateRole
         To create new user role 
-    - GetAllRoles
+    * GetAllRoles
         List all roles in the DB
   
  2- User
-   - Register
+   * Register
        To create new user with particuler role (email , passsword , role) and hash the password by bcrypt
-   - Login
+   * Login
        Login user by email and password (hashed by bcrypt) & set token (finsh in 60 minuts)
   
   
