@@ -1,5 +1,5 @@
 # W08D02
-# Baisc Authentication and Authorization User API
+# Baisc Authentication and Authorization API
 
 index:
 
