@@ -35,10 +35,13 @@ npm i jsonwebtoken
 
  ## Routers:
  1- Role 
-    * CreateRole
-           To create new user role like: admin who can create , read, write and delete.
-    * GetAllRoles
-           List all roles in the DB like: Admin and user.
+
+ * **Create Role Router**
+      -To create new user role like: admin who can create , read, write and delete.
+      
+ * **Get All Roles Router **
+      - List all roles in the DB like: Admin and user.
+
            
            
   
@@ -47,9 +50,4 @@ npm i jsonwebtoken
                 To create new user with particuler role (email , passsword , role). Password hashed by bcrypt.
    * Login via username and password
                 Login user via compare email and password that enters by user with email and hashed password (by bcrypt). Also set access token validation which finsh in 60 minuts.
-     
-  
-  
-
-  
- 
+   
