@@ -1,4 +1,5 @@
 # W08D02
+# Baisc Authentication and Authorization User API
 
 index:
 
@@ -28,24 +29,24 @@ npm i jsonwebtoken
 
 ## Schemas:
  * **Role Schema**
-      contains: role and permessions
+      contains this information: role and permessions
  * **User Schema**
-     contains: email , password and role
+     contains this information: email , password and role
 
  ## Routers:
  1- Role 
     * CreateRole
-           To create new user role 
+           To create new user role like: admin who can create , read, write and delete.
     * GetAllRoles
-           List all roles in the DB
+           List all roles in the DB like: Admin and user.
            
            
   
  2- User 
-   * Register
-                To create new user with particuler role (email , passsword , role) and hash the password by bcrypt 
-   * Login
-                Login user by email and password (hashed by bcrypt) & set token (finsh in 60 minuts)
+   * Register via username, password and role of account
+                To create new user with particuler role (email , passsword , role). Password hashed by bcrypt.
+   * Login via username and password
+                Login user via compare email and password that enters by user with email and hashed password (by bcrypt). Also set access token validation which finsh in 60 minuts.
      
   
   
