@@ -7,7 +7,7 @@ IT's simple project for signin and register useing bcrybt and jwt.
 * [Schemas](#Schemas)
 * [Routers](#Routers)
 
-## For useing a project:
+## Instructions for useing this project:
 ```
 npm i  
  ```
