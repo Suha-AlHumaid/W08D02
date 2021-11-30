@@ -1,30 +1,31 @@
 # W08D02
 # Baisc Authentication and Authorization API
+IT's simple project for signin and register useing bcrybt and jwt.
 
 ّIndex:
-
-* [Packages](#Packages)
 * [Technologies](#technologies)
 * [Schemas](#Schemas)
 * [Routers](#Routers)
 
-## Packages:
+## For useing a project:
 ```
-npm i express
-npm i nodemon
-npm i bcrypt
-npm i mongoose
-npm i cose
-npm i dotenv
-npm i jsonwebtoken 
+npm i  
  ```
-
+create .env file and set your own values:
+```
+PORT=your own port
+DB_URI= url on mongodb
+SALT=salt value
+secert_key=any secrt value
+```
 
 ## Technologies:
 * Mongoose
 * Mongo DB
 * express
 * node js
+* bcrybt
+* jwt
 
 
 ## Schemas:
